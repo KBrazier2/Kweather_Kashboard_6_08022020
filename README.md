@@ -48,3 +48,7 @@ You are required to submit the following for review:
 ---------------------------------------------------------------------------------
 
 https://kbrazier2.github.io/Kweather_Kashboard_6_08022020/
+
+Kweather Kashboard
+
+We were tasked with creating a weather dashboard that allowed the user to search for a city, and be presented with that city's weather information.

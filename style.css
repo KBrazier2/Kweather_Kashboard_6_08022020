@@ -1,0 +1,108 @@
+body {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Teko', sans-serif;
+}
+.jumbotron {
+    margin-top: 1rem;
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+}
+.time-frame {
+    width: 100%;
+    font-size: 30px;
+}
+.card {
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+}
+img {
+    height: 50px;
+    width: 50px;
+    background-color: #10d9e7;
+    border-radius: 1rem;
+}
+.display-5 {
+    font-size: 30px;
+    font-weight: 500;
+}
+#searchBar {
+    font-size: 12px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    width: 100%;
+    border-width: 2px;
+    border-color: black;
+}
+.searchcontrols {
+    margin-left: 10px;
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-width: 2px;
+    border-color: black;
+}
+.searchResult {
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-width: 2px;
+    border-color: black;
+    font-size: 20px;
+}
+.card-header {
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-width: 2px;
+    border-color: black;
+
+}
+.card-body { 
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 18px;
+    border-width: 2px;
+    border-color: black;
+    font-size: 24px;
+}
+#uvid {
+    font-weight: 700;
+}
+.low {
+    color: #00e42a;
+}
+.high {
+    color: #b80000;
+}
+.fiveday {
+    text-align: center;
+}
+.fivedayDiv {
+    margin-top: 1rem;
+}
+.cityDiv {
+    margin-bottom: 1rem;
+}
