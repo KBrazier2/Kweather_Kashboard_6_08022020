@@ -4,8 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-5">Weather Dashboard</h1>
+            <div class="time-frame">
+                <div id="date-part"></div>
+                <div id="time-part"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="display-5">City Search</h3>
+                        <input class="mb-2 my-1" id="searchBar" type="text">
+                        <button id="searchBtn" class="btn btn-primary mb-2 my-1 searchcontrols"></button>
+                        <button id="clearBtn" class="btn btn-primary mb-2 my-1 searchcontrols"></button>
+                    </div>
+                    <div id="CityBtn" class="card-body">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div id="cityDiv" class="card">
+                    <div id="cityName" class="card-header">
+
+                    </div>
+                    <div id="weatherDisplay" class="card-body">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 fivedayDiv">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="display-5">5-Day Forecast:</h3>
+                            </div>
+                            <div class="card-body">
+                                <div id="forecastBody" class="row">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
