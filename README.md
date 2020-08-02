@@ -14,3 +14,6 @@ We were tasked with creating a weather dashboard that allowed the user to search
 
 Below are screenshots / animations showing the app's functionality:
 
+![alt text](2020-08-02.png)
+![alt text](2020-08-02_(1).png)
+![alt text](Untitled_Aug_2_2020_7_31_PM.gif)
